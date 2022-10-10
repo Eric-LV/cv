@@ -257,7 +257,7 @@
 					<div class="col-md-3 col-sm-4 wow bounceInUp">
 						<div class="stat">
 							<div class="stat-icon">
-								<h2><i class="fa fa-code hidden-xs"></i><span class="timer" data-to="999"></span>+</h2>
+								<h2><i class="fa fa-code hidden-xs"></i><span class="timer" data-to="9999"></span>+</h2>
 							</div>
 							<h3>Line of code</h3>
 						</div>
@@ -786,7 +786,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-4 col-sm-6 wow bounceInUp" data-wow-delay=".6s">
+					<div class="col-md-4 col-sm-6 wow bounceInUp" data-wow-delay=".4s">
 						<a href="assets/images/Photos/6.jpg" class="pop-up" title="Statue of Liberty">
 							<div class="portfolio-item">
 								<div class="portfolio-item-preview">
@@ -837,7 +837,7 @@
 
 					<div class="col-md-6 wow bounceInRight">
 
-						<form id="contact-form" role="form">
+						<!--<form id="contact-form" role="form">
 
 							<div class="form-group">
 								<label class="sr-only" for="c_name">Name</label>
@@ -859,24 +859,35 @@
 
 							</button>
 
+						</form>-->
+
+
+						<form
+							action="https://formspree.io/f/xaykbjwq"
+							method="POST"
+						>
+							<div class="form-group">
+								<label class="sr-only" for="name">Name</label>
+								<input type="text" id="name" class="form-control" name="name" placeholder="Name" required="">
+								<p class="help-block text-danger"></p>
+							</div>
+							
+							<div class="form-group">
+								<label class="sr-only" for="email">Email address</label>
+								<input type="email" id="email" class="form-control" name="email" placeholder="E-mail" required="">
+								<p class="help-block text-danger"></p>
+							</div>
+							
+							<div class="form-group">
+								<textarea class="form-control" id="message" name="message" rows="7" placeholder="Your message" required=""></textarea>
+								<p class="help-block text-danger"></p>
+							</div>
+						<!-- your other form fields go here -->
+							<button type="submit" class="btn btn-custom-1">
+								<i class="fa fa-bullhorn icon-before"></i> Send it
+							</button>
 						</form>
 						
-						<!-- modify this form HTML and place wherever you want your form -->
-						<form
-						action="https://formspree.io/f/xaykbjwq"
-						method="POST"
-						>
-						<label>
-							Your email:
-							<input type="email" name="email">
-						</label>
-						<label>
-							Your message:
-							<textarea name="message"></textarea>
-						</label>
-						<!-- your other form fields go here -->
-						<button type="submit">Send</button>
-						</form>
 
 						<div class="ajax-response"></div>
 
