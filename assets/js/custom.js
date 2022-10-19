@@ -42,10 +42,21 @@
 			'assets/images/Desktop/14.jpg',
 			'assets/images/Desktop/7.jpg',
 			'assets/images/Desktop/2.jpg',
+			'assets/images/Desktop/24.jpg',
 			'assets/images/Desktop/23.jpg',
 			'assets/images/Desktop/12.jpg',
 			'assets/images/Desktop/10.jpg',
-			'assets/images/Desktop/15.jpg'
+			'assets/images/Desktop/15.jpg',
+			'assets/images/Desktop/19.jpg',
+			'assets/images/Desktop/22.jpg',
+			'assets/images/Desktop/13.jpg',
+			'assets/images/Desktop/8.jpg',
+			'assets/images/Desktop/9.jpg',
+			'assets/images/Desktop/25.jpg',
+			'assets/images/Desktop/26.jpg',
+			'assets/images/Desktop/5.jpg',
+			'assets/images/Desktop/21.jpg',
+			'assets/images/Desktop/22.jpg'
 		], {duration: 3000, fade: 750});
 
 		/* ---------------------------------------------- /*
